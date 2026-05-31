@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <button id="haut">
+      <p>Remonter</p>
+    </button>
+    <header>
+      <div class="content">
+        <div class="header_div">
+          <img src="./image/header/GSH.webp" alt="LogoPersonnel" />
+        </div>
+        <div class="header_div">
+          <h1>Portfolio de <span>Enzo DUFOUR</span></h1>
+          <h2>
+            &lt;Etuditant en BTS SIO au
+            <span>Lycée Geoffroi Saint-Hilaire</span>/&gt;
+          </h2>
+        </div>
+      </div>
+      <button onclick="toggleVisibilite()" class="cacher">
+        <img src="./image/nav/barre.png" alt="deco" class="cacher" />
+      </button>
+    </header>
+
+    <nav>
+      <div class="content">
+        <div>
+          <ul class="BarreNav" id="cible">
+            <li><a href="#">Page d'accueil</a></li>
+            <li><a href="./page/nav/veille/veille_techno.html">Veille technologique</a></li>
+            <li><a href="./page/nav/note_de_stage/noteDeStage.html">Note de stage</a></li>
+            <li><a href="./page/nav/compte_rendu/CompteRendu.html">Compte rendu</a></li>
+            <li><a href="./page/nav/projet perso/projet_perso.html">Projet personnel</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="content">
+        <div class="content-Box">
+          <h3>Les objectifs de ce portfolio</h3>
+          <p></p>
+        </div>
+
+        <div class="Content-Box">
+          <div class="perso">
+            <h3>Qui suis-je?</h3>
+            <p class="txt">
+              Je suis actuellement étudiant en développement informatique au
+              lycée Geoffroi Saint-Hilaire, à Étampes. Cette formation me permet
+              d’acquérir des bases solides en programmation, conception web et
+              gestion de projets numériques. Mon objectif à long terme est de
+              devenir Webmaster, un métier qui allie compétences techniques et
+              sens de l’organisation. Pour atteindre ce but, je souhaite
+              poursuivre mes études jusqu’au Master en développement web, afin
+              de consolider mes connaissances, approfondir mes compétences et me
+              préparer pleinement aux responsabilités liées à la gestion et à
+              l’optimisation de sites internet.
+            </p>
+          </div>
+          <h3>Mon parcours</h3>
+          <div class="container">
+            <details>
+              <summary>Lycée Geoffroy Saint-Hilaire</summary>
+              <div class="parcoursCentre">
+                <img src="./image/main/GSH.webp" alt="">
+                <h3>Lycée Geoffroy Saint-Hilaire</h3>
+              </div>
+              
+            </details>
+            <div class="container">
+            <details>
+              <summary>Lycée Duhamel Du Monceau</summary>
+              <div class="parcoursCentre">
+                <img src="./image/main/DDM.webp" alt="">
+                <h3>Lycée Duhamel Du Monceau</h3>
+              </div>
+              
+            </details>
+            <div class="container">
+            <details>
+              <summary>Lycée Marie Laurencin</summary>
+              <div class="parcoursCentre">
+                <img src="./image/main/ML.webp" alt="">
+                <h3>Lycée Marie Laurencin</h3>
+              </div>
+              
+            </details>
+            <div class="container">
+            <details>
+              <summary>Collège Olympe De Gouges</summary>
+              <div class="parcoursCentre">
+                <img src="./image/main/ODG.webp" alt="">
+                <h3>Collège Olympe De Gouges</h3>
+              </div>
+              
+            </details>
+      
+            
+          </div>
+
+          <h3>Mes Aspirations professionels</h3>
+          <article class="centrer">
+            <div class="sous_division">
+              <p class="txt">
+                À l’avenir, mon objectif est de devenir webmaster, en alliant
+                compétences techniques et sens de l’organisation. Pour atteindre
+                ce but, je souhaite poursuivre mes études en informatique
+                jusqu’au Master 2 en développement informatique. Dans un premier
+                temps, je prévois d’intégrer une licence professionnelle à
+                l’Université d’Évry, ce qui me permettra d’acquérir des
+                connaissances spécialisées et une expérience pratique dans le
+                domaine du web. Par la suite, je souhaite continuer mon parcours
+                universitaire au sein de la même institution afin d’obtenir mon
+                diplôme de Master 2, consolidant ainsi mon expertise et me
+                préparant pleinement à exercer le métier de webmaster.
+              </p>
+            </div>
+          </article>
+
+          <h3>Ma motivation</h3>
+            <div class="sous_division">
+            <p class="txt">
+              Depuis plusieurs années maintenant, je nourris une véritable passion
+              pour le développement sous toutes ses formes. J’ai commencé à créer
+              mes premiers sites web dès la classe de seconde, en 2021, ce qui m’a
+              permis de découvrir concrètement le monde de la programmation et du
+              design numérique. Depuis cette période, je m’efforce de renforcer et
+              diversifier mes compétences en explorant différents langages de
+              programmation et technologies. Cette démarche autodidacte me permet
+              non seulement d’élargir mes connaissances, mais aussi de développer
+              une polyvalence essentielle pour répondre aux multiples exigences du
+              métier de développeur et, à terme, de webmaster.
+            </p>
+          </div>
+
+        <div class="content-Box"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>Enzo Dufour</h3>
+        <p>Étudiant SIO1 – Lycée Geoffroi Saint-Hilaire</p>
+        <p>Développeur Web | Passionné de design techno</p>
+
+        <ul class="footer-links">
+          <li><a href="mailto:enzo.dufour1111@gmail.com">📧 Email</a></li>
+          <li><a href="./page/document/CV/index.html " target="_blank">📜 CV</a></li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/enzo-dufour-141b65395/"
+              target="_blank"
+              >🔗 LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Enzo Dufour – Tous droits réservés</p>
+      </div>
+    </footer>
+    <script>
+      const btn = document.getElementById("haut");
+
+      window.onscroll = function () {
+        if (document.documentElement.scrollTop > 200) {
+          btn.style.display = "block"; // apparaît après 200px de scroll
+        } else {
+          btn.style.display = "none";
+        }
+      };
+
+      btn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+    <script>
+      function toggleVisibilite() {
+        const element = document.getElementById("cible");
+        element.classList.toggle("invisible");
+      }
+    </script>
+  </body>
+</html>

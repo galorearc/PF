@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <script src="../../../script/script.js" defer></script>
+  </head>
+  <body>
+    <button id="haut">
+      <p>Remonter</p>
+    </button>
+    <header>
+      <div class="content">
+        <div class="header_div">
+          <img src="../../../image/header/GSH.webp" alt="LogoPersonnel" />
+        </div>
+        <div class="header_div">
+          <h1>Portfolio de <span>Enzo DUFOUR</span></h1>
+          <h2>
+            &lt;Etuditant en BTS SIO au
+            <span>Lycée Geoffroi Saint-Hilaire</span>/&gt;
+          </h2>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="content">
+        <div>
+          <ul class="BarreNav">
+            <li><a href="../../../index.html">Page d'accueil</a></li>
+            <li><a href="../veille/veille_techno.html">Veille technologique</a></li>
+            <li><a href="../note_de_stage/noteDeStage.html">Note de stage</a></li>
+            <li><a href="#">Compte rendu</a></li>
+            <li><a href="../projet perso/projet_perso.html">Projet personnel</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="content">
+        
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>Enzo Dufour</h3>
+        <p>Étudiant SIO1 – Lycée Geoffroi Saint-Hilaire</p>
+        <p>Développeur Web | Passionné de design techno</p>
+
+        <ul class="footer-links">
+          <li><a href="mailto:enzo.dufour1111@gmail.com">📧 Email</a></li>
+          <li>
+            <a href="../../document/CV/index.html" target="_blank">📜 CV</a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/enzo-dufour-141b65395/"
+              target="_blank"
+              >🔗 LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Enzo Dufour – Tous droits réservés</p>
+      </div>
+    </footer>
+    <script>
+      const btn = document.getElementById("haut");
+
+      window.onscroll = function () {
+        if (document.documentElement.scrollTop > 200) {
+          btn.style.display = "block"; // apparaît après 200px de scroll
+        } else {
+          btn.style.display = "none";
+        }
+      };
+
+      btn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
