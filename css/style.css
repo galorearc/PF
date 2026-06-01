@@ -13,9 +13,7 @@ header img{
     width: 200px;
     border-radius: 25%;
 }
-h1 {
-  font-size: clamp(2rem, 8vw, 5rem);
-}
+
 @media (max-width: 600px) {
   header img{
     display: none;
@@ -23,7 +21,7 @@ h1 {
 }
 header h1{
     color: #EAEAEA;
-    font-size: 5em;
+    font-size: clamp(2rem, 8vw, 5rem);
 }
 header h2{
     color: #FF6B00;
