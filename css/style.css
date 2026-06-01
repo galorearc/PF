@@ -228,9 +228,10 @@ summary{
     justify-content: center;
   }
   .txt{
-
+        
     width: 70%;
     text-align: justify;
+          text-align:center;
   }
   aside{
     width: 600px;
