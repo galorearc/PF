@@ -130,6 +130,14 @@ details{
   border: 1px solid #EAEAEA;
   border-radius: 20px;
 }
+.parcours{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #EAEAEA;
+  border: 1px solid #EAEAEA;
+  border-radius: 20px;
+}
 summary{
   color: #EAEAEA;
   padding: 15px;
@@ -226,12 +234,14 @@ summary{
 }
   .centrer{
     display: flex;
-    justify-content: center;
+    align-items: center;
   }
   .txt{
         
     width: 70%;
     text-align: justify;
+    margin-left: auto;
+  margin-right: auto;
   }
   aside{
     width: 600px;
@@ -304,4 +314,18 @@ summary{
   display: flex;
   background-color: #00C9FF;
   transform: translateY(-7px);
+}
+.TPA{
+  color: #EAEAEA;
+  text-decoration: none;
+  margin: 5px 15px;
+}
+ul li{
+  list-style: none;
+}
+.TPA:hover{
+  text-decoration: underline;
+}
+.txt-veille{
+  text-align: justify;
 }
