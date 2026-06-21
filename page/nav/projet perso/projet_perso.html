@@ -161,7 +161,7 @@
         <p>© 2025 Enzo Dufour – Tous droits réservés</p>
       </div>
     </footer>
-    <script>
+ <script>
       const btn = document.getElementById("haut");
 
       window.onscroll = function () {
@@ -175,6 +175,12 @@
       btn.onclick = function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
       };
+    </script>
+    <script>
+      function toggleVisibilite() {
+        const element = document.getElementById("cible");
+        element.classList.toggle("invisible");
+      }
     </script>
   </body>
 </html>
