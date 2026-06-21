@@ -5,8 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link rel="stylesheet" href="../../../css/style.css" />
-    <script src="../../../script/script.js" defer></script>
+    <script src="script.js" defer></script>
   </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LNQ2M48SZF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LNQ2M48SZF');
+</script>
   <body>
     <button id="haut">
       <p>Remonter</p>
@@ -14,7 +23,7 @@
     <header>
       <div class="content">
         <div class="header_div">
-          <img src="../../../image/header/GSH.webp" alt="LogoPersonnel" />
+          <img src="./image/header/GSH.webp" alt="LogoPersonnel" />
         </div>
         <div class="header_div">
           <h1>Portfolio de <span>Enzo DUFOUR</span></h1>
@@ -24,6 +33,9 @@
           </h2>
         </div>
       </div>
+      <button onclick="toggleVisibilite()" class="cacher">
+        <img src="./image/nav/barre.png" alt="deco" class="cacher" />
+      </button>
     </header>
 
     <nav>
