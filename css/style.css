@@ -18,6 +18,9 @@ header img{
   header img{
     display: none;
   }
+header{
+    padding:5px;
+}
 }
 header h1{
     color: #EAEAEA;
@@ -190,6 +193,9 @@ summary{
   .veille{
   width: 100%;
   margin: 0;}
+ main{
+  padding: 3px;
+ }
 }
 .diese{
   color: #EAEAEA;
