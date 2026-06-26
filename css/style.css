@@ -198,8 +198,11 @@ summary{
  }
 .parcours{
         width:100%;
-        
 }
+.parcoursCentre{
+        display: block;
+}
+
 }
 .diese{
   color: #EAEAEA;
