@@ -42,6 +42,11 @@ header .content{
   header h2{
     font-size: 2em;
   }
+.parcoursCentre{
+        width: 200px;
+        margin-left: auto;
+  margin-right: auto;
+}
 }
 
     /*pour le Nav*/
