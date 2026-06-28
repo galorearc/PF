@@ -347,3 +347,57 @@ ul li{
 .txt-veille{
   text-align: justify;
 }
+/* SECTION NDS */
+.nds-section {
+  margin-top: 60px;
+  padding: 50px 30px;
+  background: linear-gradient(135deg, #0a0f1f, #111a33);
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.nds-title {
+  font-size: 2.4rem;
+  color: #00eaff;
+  margin-bottom: 25px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+.nds-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.nds-description {
+  font-size: 1.2rem;
+  color: #d6eaff;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.nds-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #00eaff;
+  color: #0a0f1f;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+.nds-button:hover {
+  background: #00bcd4;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
